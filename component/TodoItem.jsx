@@ -4,7 +4,7 @@ export default function TodoItem({ task, toggleTask, deleteTask }) {
     return (
         <li
             className={`task-item flex justify-between items-center p-4 mb-4 bg-black rounded-lg ${
-                task.completed ? "line-through bg-green-500" : ""
+                task.completed ? "line-through bg-green-800" : ""
             }`}
         >
             <input
